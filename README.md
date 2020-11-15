@@ -1,2 +1,3 @@
 # goit-js-hw-12-countries
- Homework 12
+
+Homework 12
