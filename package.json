@@ -11,10 +11,18 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "repository": {
+    "type": "git",
+"url": "git+https://github.com/OlgaPoltavets/goit-js-hw-12-countries.git"
+  },
   "keywords": [
     "webpack",
     "webpack 5"
   ],
+  "bugs": {
+"url": "https://github.com/OlgaPoltavets/goit-js-hw-12-countries/issues"
+  },
+  "homepage": "https://olgapoltavets.github.io/goit-js-hw-12-countries",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
@@ -45,12 +53,7 @@
     "webpack-cli": "^4.1.0",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.3.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://OlgaPoltavets/goit-js-hw-12-countries.git"
-  },
-  "homepage": "https://OlgaPoltavets.github.io/goit-js-hw-12-countries",
+  },  
   "dependencies": {
     "lodash.debounce": "^4.0.8",
     "pnotify": "^5.1.2"
