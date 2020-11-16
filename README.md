@@ -1,3 +1,1 @@
-# goit-js-hw-12-countries
-
-Homework 12
+# webpack.v5-tuned-
