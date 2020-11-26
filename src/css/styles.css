@@ -10,13 +10,13 @@ body {
 
   font-size: 30px;
   line-height: 1.5;
-  font-family: cursive;
+  font-family: inherit;
 
   color: #2a2a2a;
   /* background-color: #d4e6f1; */
   background-image: url("../images/map.jpg");
   background-repeat: no-repeat;
-  background-position: top 250px center;
+  background-position: top 120px center;
 }
 
 img {
@@ -29,23 +29,23 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 200px;
+  margin-bottom: 20px;
   padding: 25px 20px;
 
   height: 40px;
   min-width: 400px;
 
-  font-family: serif;
-  font-size: 20px;
+  font-family: inherit;
+  font-size: 25px;
   color: #2a2a2a;
 
-  border: 5px solid grey;
-  border-radius: 2px;
+  border: 3px solid #000000;
+  border-radius: 10px;
 }
 
 .countries-list {
   margin: 0;
-  padding: 0 0 0 180px;
+  padding: 0 0 0 100px;
   list-style: inside;
 }
 
@@ -62,7 +62,7 @@ img {
 }
 
 .card-title {
-  margin: 0 0 30px 0;
+  margin: 0 0 250px 0;
   padding: 0;
   font-size: 50px;
   text-align: center;
@@ -74,5 +74,5 @@ img {
 
 .card-text {
   padding: 0;
-  margin: 0 0 15px 0;
+  margin: 0 0 10px 0;
 }
