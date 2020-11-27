@@ -1,20 +1,16 @@
 {
   "name": "countries",
-  "version": "5.0.0",
-  "description": ".",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "author": "Olga",
   "license": "ISC",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.js",
-    "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "predeploy": "npm run build -- --public-url=/goit-js-hw-12-countries/",
+    "deploy": "gh-pages -d dist"
   },
-  "keywords": [
-    "webpack",
-    "webpack 5"
-  ],
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
@@ -40,11 +36,7 @@
     "sass-loader": "^10.1.0",
     "style-loader": "^2.0.0",
     "terser-webpack-plugin": "^5.0.3",
-    "url-loader": "^4.1.1",
-    "webpack": "^5.8.0",
-    "webpack-cli": "^4.2.0",
-    "webpack-dev-server": "^3.11.0",
-    "webpack-merge": "^5.3.0"
+    "url-loader": "^4.1.1"
   },
   "repository": {
     "type": "git",
